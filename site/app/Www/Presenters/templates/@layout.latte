@@ -15,7 +15,7 @@
 	{if $darkMode === null}
 		{styleSheet screen-main+'@media (prefers-color-scheme: dark) {'+screen-main-dark+'}'}
 	{elseif $darkMode}
-		{styleSheet screen-main+screen-main-dark}
+		{styleSheet screen-main+screen-main-dark+rating}
 	{else}
 		{styleSheet screen-main}
 	{/if}
